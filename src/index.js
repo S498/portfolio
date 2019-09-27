@@ -6,8 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './style/main.scss';
 
 ReactDOM.render(
-    <PortfolioProvider>
-        <App />
-    </PortfolioProvider>,
-    document.getElementById('root')
+  <PortfolioProvider>
+    <App />
+  </PortfolioProvider>,
+  document.getElementById('root')
 );
