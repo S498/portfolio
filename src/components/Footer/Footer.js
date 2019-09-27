@@ -36,11 +36,11 @@ const Footer = () => {
         <p className="footer__text">
           © 2019 - Template by{' '}
           <a
-            href="https://github.com/cobidev"
+            href="https://github.com/aakash012"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Jacobo Martinez
+            Aakash Kumar
           </a>
         </p>
       </div>

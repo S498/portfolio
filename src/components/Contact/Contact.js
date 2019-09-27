@@ -21,7 +21,7 @@ const Contact = () => {
             href={
               email
                 ? `mailto:${email}`
-                : 'https://github.com/cobidev/react-simplefolio'
+                : 'https://github.com/aakash012/Portfolio'
             }
           >
             {btn || 'Button Text'}
