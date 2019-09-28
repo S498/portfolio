@@ -21,7 +21,7 @@ const Footer = () => {
               return (
                 <a
                   key={index}
-                  href={url || 'https://github.com/cobidev/react-simplefolio'}
+                  href={url || 'https://github.com/aakash012/Portfolio'}
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -34,7 +34,7 @@ const Footer = () => {
         <hr />
 
         <p className="footer__text">
-          © 2019 - Template by{' '}
+          © 2019 - Created by{' '}
           <a
             href="https://github.com/aakash012"
             target="_blank"
