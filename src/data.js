@@ -20,21 +20,21 @@ export const projectsData = [
     title: '',
     info: '',
     url: '',
-    repo: 'https://github.com/aakash012/Portfolio', // if no repo, the button will not show up
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
     img: '',
   },
   {
     title: '',
     info: '',
     url: '',
-    repo: 'https://github.com/aakash012/Portfolio', // if no repo, the button will not show up
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
     img: '',
   },
   {
     title: '',
     info: '',
     url: '',
-    repo: 'https://github.com/aakash012/Portfolio', // if no repo, the button will not show up
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
     img: '',
   },
 ];
