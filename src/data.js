@@ -12,31 +12,45 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://drive.google.com/open?id=0B6m2yTvIS4YYZC13bktLckVIMEpuU011WUJQVFJObmVtdFBR',
+  resume: 'https://bit.ly/dajkkij',
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
-    title: '',
-    info: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-    img: '',
+    title: 'Portfolio',
+    info: 'A clean, beautiful and responsive portfolio about me using React javaScript.',
+    url: 'https://aakash-portfolio.firebaseapp.com/',
+    repo: 'https://github.com/aakash012/Portfolio', // if no repo, the button will not show up
+    img: '/assets/portfolio.png',
   },
   {
-    title: '',
-    info: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-    img: '',
+    title: 'Simple Calculator Web App',
+    info: 'A Simple calculator web app using react javascript.',
+    url: 'https://calculator0.firebaseapp.com/',
+    repo: 'https://github.com/aakash012/Calculator-App-React', // if no repo, the button will not show up
+    img: '/assets/calculator.png',
   },
   {
-    title: '',
-    info: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-    img: '',
+    title: 'Holiday Calendar',
+    info: 'This front-end Blogging website enables the user to create and publish his/her own articles/posts, register a new user, edit an already existing blog post, add comments on that blog post, add a "like" to any particular blog post and so on.',
+    url: 'https://holiday-calendar-0.firebaseapp.com/',
+    repo: 'https://github.com/aakash012/Holiday-Calender', // if no repo, the button will not show up
+    img: '/assets/holiday.png',
+  },
+  {
+    title: 'Scribbler - A Blogging Site',
+    info: 'This front-end Blogging website enables the user to create and publish his/her own articles/posts, register a new user, edit an already existing blog post, add comments on that blog post, add a "like" to any particular blog post and so on.',
+    url: 'https://aakash012.github.io/Scribbler/index.html',
+    repo: 'https://github.com/aakash012/Scribbler', // if no repo, the button will not show up
+    img: '/assets/scribbler.png',
+  },
+  {
+    title: 'Travel and Food Blog',
+    info: 'Developed Front-End web pages using HTML, CSS, JavaScript, and Angular JavaScript. The project is about different places and the type of food they offer.',
+    url: 'https://aakash012.github.io/Travel-Eat-Inspire-11603334/index.html',
+    repo: 'https://github.com/aakash012/Travel-Eat-Inspire-11603334', // if no repo, the button will not show up
+    img: '/assets/blog.png',
   },
 ];
 
@@ -44,7 +58,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'aakash012@live.com',
 };
 
 // FOOTER DATA
