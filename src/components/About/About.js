@@ -3,7 +3,7 @@ import PortfolioContext from '../../context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
 
   return (
     <section id="about">
@@ -17,7 +17,7 @@ const About = () => {
                 className="img-fluid rounded shadow-lg"
                 height="auto"
                 width="300px"
-                src={img || '/assets/profile.png'}
+                src={img || '/assets/profile.jpg'}
                 alt="Profile"
               />
             </div>
@@ -26,11 +26,18 @@ const About = () => {
             <div className="about-wrapper__info">
               <p className="about-wrapper__info-text">
                 {paragraphOne ||
-                  'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                  'I am pusrsuing B.Tech in Computer Science from Lovely Professional University. I am a professional and passionate Software Developer focused on efficiency and constant learning. I love Full Stack Web Development. I can develop and maintain both front-end and back-end.'
+                }
               </p>
               <p className="about-wrapper__info-text">
                 {paragraphTwo ||
-                  'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                  'I have worked on various web frameworks like Angular, Express, Springboot and libraries such as React. I have created multiple projects either from the front-end or the back-end mostly using Javascript, React , Node.js, Ecpress.js and MongoDB.'
+                }
+              </p>
+              <p className="about-wrapper__info-text">
+                {paragraphThree ||
+                  'I would love to set up an introduction call to discuss how I could help your business and make your goals happen.'
+                }
               </p>
               {resume && (
                 <span className="d-flex mt-4">

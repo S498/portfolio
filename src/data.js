@@ -11,7 +11,8 @@ export const aboutData = {
   img: '',
   paragraphOne: '',
   paragraphTwo: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphThree: '',
+  resume: 'https://drive.google.com/open?id=0B6m2yTvIS4YYZC13bktLckVIMEpuU011WUJQVFJObmVtdFBR',
 };
 
 // PROJECTS DATA
@@ -51,19 +52,19 @@ export const footerData = {
   networks: [
     {
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/aakashk012',
     },
     {
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/aakash012',
     },
     {
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/aakash310/',
     },
     {
       name: 'github',
-      url: '',
+      url: 'https://github.com/aakash012',
     },
   ],
 };

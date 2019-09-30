@@ -11,7 +11,7 @@ const Contact = () => {
         <h2 className="section-title">Contact</h2>
         <div className="contact-wrapper">
           <p className="contact-wrapper__text">
-            {cta || '[Put here your call to action]'}
+            {cta || 'Would you like to work with me? Awesome!'}
           </p>
           <br />
           <a
@@ -24,7 +24,7 @@ const Contact = () => {
                 : 'https://github.com/aakash012/Portfolio'
             }
           >
-            {btn || 'Button Text'}
+            {btn || 'Let\'s Talk'}
           </a>
         </div>
       </div>
