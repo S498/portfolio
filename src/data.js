@@ -52,6 +52,12 @@ export const projectsData = [
     repo: 'https://github.com/aakash012/Travel-Eat-Inspire-11603334', // if no repo, the button will not show up
     img: '/assets/blog.png',
   },
+  {
+    title: 'Discussion Forum',
+    info: 'A Console based Java application to discuss question related to programming. It has user, admin and moderator, each having different roles. User can ask questions and give reply for any question. Also users can upvote or downvote a question.',
+    repo: 'https://github.com/aakash012/Discussion-Forum', // if no repo, the button will not show up
+    img: '/assets/discussion.png',
+  },
 ];
 
 // CONTACT DATA
