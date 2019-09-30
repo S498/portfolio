@@ -33,7 +33,7 @@ export const projectsData = [
   },
   {
     title: 'Holiday Calendar',
-    info: 'This front-end Blogging website enables the user to create and publish his/her own articles/posts, register a new user, edit an already existing blog post, add comments on that blog post, add a "like" to any particular blog post and so on.',
+    info: 'Developed a front-end web page using React JavaScript to display holidays using calendrific API. It will fetch data from the API and display whether today is holiday or not. This web page also displays upcoming and passed holidays.',
     url: 'https://holiday-calendar-0.firebaseapp.com/',
     repo: 'https://github.com/aakash012/Holiday-Calender', // if no repo, the button will not show up
     img: '/assets/holiday.png',

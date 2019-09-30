@@ -31,7 +31,7 @@ const About = () => {
               </p>
               <p className="about-wrapper__info-text">
                 {paragraphTwo ||
-                  'I have worked on various web frameworks like Angular, Express, Springboot and libraries such as React. I have created multiple projects either from the front-end or the back-end mostly using Javascript, React , Node.js, Ecpress.js and MongoDB.'
+                  'I have worked on various web frameworks like Angular, Express, Springboot and libraries such as React. I have created multiple projects either from the front-end or the back-end mostly using Javascript, React , Node.js, Express.js and MongoDB.'
                 }
               </p>
               <p className="about-wrapper__info-text">
