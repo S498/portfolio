@@ -14,10 +14,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint:fix": "eslint . --fix"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "lint:fix": "eslint . --fix",
+    "buildAndDeploy": "yarn build && firebase deploy",
+    "buildAndServe": "yarn build && firebase serve"
   },
   "browserslist": {
     "production": [

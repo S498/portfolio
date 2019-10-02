@@ -12,7 +12,7 @@ import {
   aboutData,
   projectsData,
   contactData,
-  footerData,
+  footerData
 } from './data';
 
 function App() {
