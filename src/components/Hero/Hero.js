@@ -12,7 +12,7 @@ const Header = () => {
           {title || "Hi, I'm"}{' '}
           <span className='text-color-main'>{name || 'Sathwik'}</span>
           <br />
-          {subtitle || "I'm a Full Stack Web Developer."}
+          {subtitle || "I'm a Full Stack Web Developer || MERN Stack"}
         </h1>
         <p id='opening-paragraph'>
           <a className='cta-btn cta-btn--hero' href='#about'>
